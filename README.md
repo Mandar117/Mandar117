@@ -1,48 +1,58 @@
 # Mandar Deshmukh
-### Robotics • Computer Vision • Machine Learning • Intelligent Systems
 
-# 💫 About Me:
-I'm an M.S. Computer Science student at **University of Colorado Boulder**, working at the **HIRO Lab** on robotic perception and sensing systems. My work sits at the intersection of **robotics, computer vision, and machine learning**, where models interact with sensors, physical environments, and real robotic systems.
+### Robotics Software Engineer • Computer Vision • Machine Learning • Embodied AI
 
-<br><br>
-🔭 I’m currently working on robotic perception pipelines including **stereo vision based depth estimation, 3D object localization, and multi-object tracking using YOLO-based systems** for real-time environments.
+## About Me
 
-<br><br>
-🧠 At **HIRO Lab**, I contribute to the **GenTact Toolbox**, a computational design pipeline that procedurally generates **3D-printed tactile skins for robots**, enabling low-cost distributed sensing and improved human-robot interaction.
+I'm an M.S. Computer Science graduate from the University of Colorado Boulder, where I worked at the HIRO Lab building full-stack robotics software — perception, control, and learning systems — for a 14-DoF robotic platform. My work sits at the intersection of robotics, computer vision, and machine learning: systems that perceive, reason about, and act in the physical world.
 
-<br><br>
-👯 I’m looking to collaborate on **robot perception systems, multimodal sensing, and real-world AI deployments in robotics**.
+Currently building real-time robotics infrastructure in C++ and Python — from production-grade ROS2 middleware to vision-based teleoperation systems for robot learning data collection.
 
-<br><br>
-🌱 I’m currently learning **sensor fusion, perception pipelines for robotics, real-time system optimization, and multimodal robot control using vision and tactile sensing**.
+Actively seeking full-time roles in Robotics Software Engineering, ML Engineering, and Autonomous Systems. Available to join June 2026.
 
-<br><br>
-💬 Ask me about **computer vision pipelines, building ML systems that interact with sensors, time-series ML for anomaly detection, or deploying ML models in production pipelines**.
+## What I Work On
 
-# 💻 Tech Stack:
+- **Robot learning & manipulation:** Visuomotor policy training via imitation learning and reinforcement learning, deployed on real 14-DoF hardware with sub-10ms inference latency (CUDA, TensorRT)
+- **Real-time systems:** Production-grade ROS2 middleware in C++20 — lock-free data structures, custom real-time executors, POSIX scheduling
+- **Perception & SLAM:** Visual SLAM, sensor fusion (camera, LiDAR, IMU), 3D object detection and tracking
+- **Simulation & sim-to-real:** MuJoCo, Isaac Sim, Gazebo — environment design, domain randomization, and sim-to-real transfer validation
 
-**Robotics & Vision:**  
-OpenCV · Stereo Vision · Depth Estimation · Multi-Object Tracking · Sensor Processing  
+I'm interested in collaborating on robot learning, perception systems, and real-time robotics infrastructure.
 
-**Machine Learning:**  
-PyTorch · Transformers · LSTM · Time-Series Forecasting · Model Optimization  
+## Tech Stack
 
-**Perception Models:**  
-YOLOv8 · Object Detection · 3D Localization · Tracking Systems  
+**Languages:** Python · C++ (17/20) · Bash · SQL
 
-**Systems & Backend:**  
-REST APIs · Databases · Distributed Systems Concepts · Data Pipelines  
+**Robotics & Manipulation:** ROS2 · MoveIt 2 · ros2_control · URDF/Xacro · Inverse Kinematics · Sensor Fusion · Visual SLAM (ORB-SLAM3)
 
-**MLOps & Tools:**  
-Docker · MLflow · Git · Linux · VS Code  
+**Simulation:** MuJoCo · NVIDIA Isaac Sim · Gazebo · PyBullet · Sim-to-Real Transfer
 
-**Languages:**  
-Python · C++ · JavaScript · SQL  
+**Computer Vision & ML:** PyTorch · TensorFlow · YOLOv8 · DeepSORT · Vision Transformers · Imitation Learning · Reinforcement Learning (PPO, SAC)
 
-## 🚀 Currently Building
-• Stereo Vision 3D Object Detection Pipeline  
-• Real-Time Multi-Object Tracking for Robotics  
-• Tactile Sensing Systems for Robots (HIRO Lab)
+**Systems:** Lock-Free Data Structures · Real-Time Execution (SCHED_FIFO) · CUDA · TensorRT · gtest
+
+**MLOps & Infrastructure:** Docker · MLflow · Weights & Biases · AWS · GCP · Git/CI-CD
+
+## Featured Projects
+
+**Custom Real-Time ROS2 Middleware (C++20)**
+Production-grade real-time executor for ROS2 Humble — lock-free SPSC ring buffer, ABA-safe memory pool, POSIX SCHED_FIFO scheduling with CPU affinity. Benchmarked across three transport modes at up to 1kHz over 95,951 samples, achieving p99 scheduling jitter ≤11µs with zero missed deadlines. 29 gtest unit tests, GitHub Actions CI.
+
+**Dual-Arm Hand Teleoperation System (ROS2 + MoveIt 2)**
+Real-time dual-arm teleoperation using only a USB webcam — MediaPipe hand tracking with One Euro adaptive filtering, MoveIt 2 collision-aware inverse kinematics, and FollowJointTrajectory execution on ros2_control. Custom URDF/Xacro robot model built from scratch. Sub-50ms pixel-to-joint latency.
+
+**Visual SLAM with Object-Aware Mapping**
+Integrated ORB-SLAM3 with YOLOv8-seg for real-time semantic mapping and localization, achieving 3–5cm localization error at 18 FPS on KITTI and TUM datasets.
+
+**3D Object Detection & Tracking for Autonomous Vehicles**
+Real-time perception pipeline combining YOLOv8 and stereo vision, achieving 89.9% mAP on KITTI and 72.3% MOTA for multi-object tracking. Integrated NeRF-based synthetic data generation for robustness under varied conditions.
+
+**RL Locomotion Control**
+Trained a Soft Actor-Critic agent on MuJoCo HalfCheetah-v5, achieving mean reward 7,648 with 85%+ success rate over 1M timesteps. Deployed trained policy with sub-10ms GPU inference latency.
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/mandardeshmukh117) · MandarMahesh.Deshmukh@colorado.edu
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Mandar117&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
