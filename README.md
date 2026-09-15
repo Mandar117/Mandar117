@@ -5,7 +5,7 @@
 ## About Me
 
 I'm an M.S. Computer Science graduate from the University of Colorado Boulder, 
-where I worked at the HIRO Lab building full-stack robotics software: perception, control, and learning systems — for a 14-DoF robotic platform. 
+where I worked at the HIRO Lab building full-stack robotics software: perception, control, and learning systems, for a 14-DoF robotic platform. 
 My work sits at the intersection of robotics, computer vision, and machine 
 learning: systems that perceive, reason about, and act in the physical world.
 
